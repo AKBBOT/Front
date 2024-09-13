@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+  }
+  .parent1 {
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .child1 {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 10px;
+  }
+  .child2 {
+    width: 70px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 10px;
+  }
+  
+  .parent2 {
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    border-radius: 10px;
+  }
+  
+  .parent3 {
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grandfather1{
+    display: flex;
+    gap: 50px;
+  }
+  
+  
+  .parent4 {
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+  }
+  .grandfather2{
+    display : flex;
+    gap: 50px;
+  }
+  .child3{
+    margin-left: 200px;
+    background-color: orange;
+    border-radius: 10px;
+    width: 70px;
+    height: 50px;
+  }
+  .parent5{
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    display: flex;
+    border-radius: 10px;
+  }
+  .child4{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    border-radius: 10px;
+    width: 70px;
+    height: 50px;
+  }
+  .parent6{
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .grandfather3{
+    display : flex;
+    gap: 50px;
+  }
+  .parent7{
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    display: flex;
+    border-radius: 10px;
+    align-items: end;
+  }
+  .child5{
+    background-color: orange;
+    border-radius: 10px;
+    width: 70px;
+    height: 50px;
+    display: flex;
+  }
+  .child6{
+    background-color: orange;
+    border-radius: 10px;
+    width: 70px;
+    height: 50px;
+    display: flex;
+  }
+  .parent8{
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+  }
+  .parent9{
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+  }
+  .child7{
+    background-color: orange;
+    border-radius: 10px;
+    width: 70px;
+    height: 50px;
+    display: flex; 
+  }
